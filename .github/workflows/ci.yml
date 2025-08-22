@@ -17,7 +17,7 @@ jobs:
     # 매트릭스 전략을 사용하여 여러 버전의 Node.js에서 테스트를 실행합니다.
     strategy:
       matrix:
-        node-version: [22.x]
+        node-version: [24.x]
 
     # 'build' 작업에 포함된 단계(steps)를 정의합니다.
     steps:
