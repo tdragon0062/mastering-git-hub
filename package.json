@@ -1,12 +1,16 @@
 {
-  "name": "your-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "mastering-git-github",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
+    "test" : "./node_modules/.bin/mocha test.spec.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.21.2",
+    "mocha": "^11.7.1",
+    "morgan": "^1.10.1"
+  }
 }
